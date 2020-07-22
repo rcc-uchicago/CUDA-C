@@ -14,7 +14,7 @@ __global__ void simpleKernel(int N, float *d_a){
 }
 
 int main(int argc,char **argv){
-  int N = 512; // size of array for this DEMO
+  int N = 1024; // size of array for this DEMO
     
   float *d_a;  // Allocate DEVICE array
   cudaMalloc((void**) &d_a, N*sizeof(float));

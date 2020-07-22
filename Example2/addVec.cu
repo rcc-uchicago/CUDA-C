@@ -55,6 +55,7 @@ int main(int argc, char **argv)
 
   // add vectors together
   int Nthreads = atoi(argv[1]);
+  
   dim3 threadsPerBlock(Nthreads,1,1);
   dim3 blocks((N+Nthreads-1)/Nthreads,1,1);
   double iStart=cpuSecond();
