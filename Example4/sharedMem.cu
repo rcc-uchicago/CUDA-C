@@ -54,7 +54,7 @@ int main(void)
        printf("Error: d[%d]!=r[%d] (%d, %d)n", i, i, d[i], r[i]);
     }
     else{
-       printf("Correct result %d index.\n", i);
+       printf("Correct result at %d index.\n", i);
 
    }
 
